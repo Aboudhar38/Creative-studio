@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Creative Studio</title>
+    <link rel="stylesheet" href="ui-components.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <a class="brand" href="index.html">Creative<span>Studio</span></a>
+            <p class="menu-title">MAIN MENU</p>
+            <a class="side-link selected" href="dashboard.html">▦ &nbsp; Dashboard</a>
+            <a class="side-link" href="blog.html">▤ &nbsp; Articles</a>
+            <a class="side-link" href="index.html">◫ &nbsp; Components</a>
+            <div class="profile">
+                <div class="avatar">A</div>
+                <div><strong>Abudhari KANANURA</strong><small>Student account</small></div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <div>
+                    <p class="overline">SUNDAY, 1 NOVEMBER 2026</p>
+                    <h1>Dashboard overview</h1>
+                </div>
+                <a class="view-site" href="index.html">View website ↗</a>
+            </header>
+
+            <section class="welcome">
+                <div>
+                    <p>YOUR WORKSPACE</p>
+                    <h2>Welcome back, Abu!</h2>
+                    <span>Here is a quick look at your activity.</span>
+                </div>
+                <div class="welcome-mark">✦</div>
+            </section>
+
+            <section class="stats-grid">
+                <article class="stat-card">
+                    <p>Total visitors</p>
+                    <h2>2,480</h2><span class="positive">↑ 12% this month</span>
+                </article>
+                <article class="stat-card">
+                    <p>Articles read</p>
+                    <h2>186</h2><span class="positive">↑ 8% this month</span>
+                </article>
+                <article class="stat-card">
+                    <p>New members</p>
+                    <h2>64</h2><span class="positive">↑ 5% this month</span>
+                </article>
+                <article class="stat-card">
+                    <p>Tasks completed</p>
+                    <h2>28</h2><span class="neutral">On your learning list</span>
+                </article>
+            </section>
+
+            <section class="dashboard-grid">
+                <article class="box analytics">
+                    <div class="box-heading">
+                        <div>
+                            <h3>Visitor activity</h3>
+                            <p>Visitors during the last 7 days</p>
+                        </div>
+                        <span class="period">This week⌄</span>
+                    </div>
+                    <div class="chart">
+                        <div class="y-labels">
+                            <span>400</span><span>300</span><span>200</span><span>100</span><span>0</span></div>
+                        <div class="chart-area">
+                            <div class="grid-lines"><i></i><i></i><i></i><i></i><i></i></div>
+                            <div class="bars">
+                                <div style="height:45%"></div>
+                                <div style="height:70%"></div>
+                                <div style="height:55%"></div>
+                                <div style="height:85%"></div>
+                                <div style="height:62%"></div>
+                                <div style="height:95%"></div>
+                                <div style="height:76%"></div>
+                            </div>
+                            <div class="days">
+                                <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="box activity">
+                    <div class="box-heading">
+                        <h3>Recent activity</h3><a href="#">See all</a>
+                    </div>
+                    <div class="activity-item"><span class="dot coral"></span>
+                        <div><strong>New article published</strong><small>Learning HTML · 10 min ago</small></div>
+                    </div>
+                    <div class="activity-item"><span class="dot green"></span>
+                        <div><strong>New member joined</strong><small>Jordan joined · 1 hour ago</small></div>
+                    </div>
+                    <div class="activity-item"><span class="dot gold"></span>
+                        <div><strong>Weekly report ready</strong><small>Visitor report · Yesterday</small></div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="box transactions">
+                <div class="box-heading">
+                    <div>
+                        <h3>Recent transactions</h3>
+                        <p>Latest account activity</p>
+                    </div><a href="#">View all</a>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <tr>
+                            <th>NAME</th>
+                            <th>DESCRIPTION</th>
+                            <th>DATE</th>
+                            <th>AMOUNT</th>
+                            <th>STATUS</th>
+                        </tr>
+                        <tr>
+                            <td>Abudhari KANANURA</td>
+                            <td>Course subscription</td>
+                            <td>01 Nov 2026</td>
+                            <td>24.00RWF</td>
+                            <td><span class="paid">Paid</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ramadhan NIYIBIZI</td>
+                            <td>Design workshop</td>
+                            <td>31 Oct 2026</td>
+                            <td>15.00RWF</td>
+                            <td><span class="pending">Pending</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <footer>© 2026 Creative Studio</footer>
+        </main>
+    </div>
+</body>
+
+</html>
